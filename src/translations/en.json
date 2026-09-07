@@ -8897,7 +8897,12 @@
               "area": "Living room",
               "device": "Thermostat",
               "entity": "Temperature",
-              "floor": "Ground floor"
+              "floor": "Ground floor",
+              "power_strip": {
+                "parent_device": "Power strip",
+                "device": "Outlet 1",
+                "entity": "Power"
+              }
             },
             "editor": {
               "label": "Format",
